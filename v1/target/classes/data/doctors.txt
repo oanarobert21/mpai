@@ -1,0 +1,6 @@
+Marinela;Dimitriu;marinela@test.com;Chirurgie
+Cezar;Popescu;cezar@test.com;Cardio
+Ion;Marin;ion@test.com;Cardio
+Laura;Manica;laura@test.com;Dermato
+Marcel;Dan;marcel@test.com;Ortopedie
+Andreea;Stoica;andreea@test.com;Pediatrie

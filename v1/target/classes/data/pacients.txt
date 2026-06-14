@@ -1,0 +1,6 @@
+Ana;Popescu;ana@test.com
+Mihai;Andrei;mihai@test.com
+Ioana;Vlad;ioana@test.com
+Vlad;Miroiu;vlad@test.com
+Daria;Pana;daria@test.com
+Stefan;Marin;stefan@test.com

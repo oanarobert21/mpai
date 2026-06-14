@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista programari</title>
+</head>
+<body>
+
+<h1>Lista cererilor</h1>
+
+<br><br>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>Data programare</th>
+        <th>Scop programare</th>
+        <th>Status programare</th>
+        <th>Prenume pacient</th>
+        <th>Nume pacient</th>
+        <th>Email pacient</th>
+        <th>Prenume doctor</th>
+        <th>Nume doctor</th>
+        <th>Email doctor</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="appointment : ${appointments}">
+        <td th:text="${appointment.date}">2026-06-10</td>
+        <td th:text="${appointment.scope}">consult</td>
+        <td th:text="${appointment.appointmentStatus}">PENDING</td>
+        <td th:text="${appointment.patientFirstName}">alexandra</td>
+        <td th:text="${appointment.patientLastName}">alexandra</td>
+        <td th:text="${appointment.patientEmail}">alexandra</td>
+        <td th:text="${appointment.doctorFirstName}">alexandra</td>
+        <td th:text="${appointment.doctorLastName}">alexandra</td>
+        <td th:text="${appointment.doctorEmail}">alexandra</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+2026-01-02;consult general;SOLICITATA;ana@test.com;marinela@test.com
+2026-01-02;consult general;CONFIRMATA;mihai@test.com;cezar@test.com
+2026-01-02;consult general;SOLICITATA;daria@test.com;ion@test.com
+2026-01-07;consult general;SOLICITATA;ioana@test.com;ion@test.com
+2026-02-02;consult general;ANULATA;vlad@test.com;laura@test.com
+2026-01-03;consult general;EFECTUATA;stefan@test.com;marcel@test.com
