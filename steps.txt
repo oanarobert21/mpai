@@ -5,4 +5,4 @@
 5. Repository -> extends JpaRepository <Appointment, Long>
 6. Dto, Mapper, Service
 7. Data initializer + fisiere txt
-8. Controller + Templates
+8. Controller + Templates + application.properties
