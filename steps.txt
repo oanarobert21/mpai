@@ -1,4 +1,4 @@
-﻿1. Spring initializer -> https://start.spring.io/
+﻿1. Spring initializer -> https://start.spring.io/ -> Spring Web, Thymeleaf, Spring Data JPA, H2 Database
 2. config, controller, dto, mapper, model, repository, service
 3. resources -> templates ->admin + home
 4. Modele 
