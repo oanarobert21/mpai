@@ -1,0 +1,8 @@
+﻿1. Spring initializer -> https://start.spring.io/
+2. config, controller, dto, mapper, model, repository, service
+3. resources -> templates ->admin + home
+4. Modele 
+5. Repository -> extends JpaRepository <Appointment, Long>
+6. Dto, Mapper, Service
+7. Data initializer + fisiere txt
+8. Controller + Templates
