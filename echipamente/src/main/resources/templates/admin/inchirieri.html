@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista inchirieri</title>
+</head>
+<body>
+
+<h1>Lista inchirieri</h1>
+
+<br><br>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>Data inceput</th>
+        <th>Data sfarsit</th>
+        <th>Status inchirieri</th>
+        <th>Prenume user</th>
+        <th>Nume user</th>
+        <th>Nume echipament</th>
+        <th>Descriere echipament</th>
+        <th>Actiuni</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="inchiriere : ${inchirieri}">
+        <td th:text="${inchiriere.startDate}">2026-06-10</td>
+        <td th:text="${inchiriere.endDate}">2026-06-10</td>
+        <td th:text="${inchiriere.inchirieriStatus}">PENDING</td>
+        <td th:text="${inchiriere.userFirstName}">robert</td>
+        <td th:text="${inchiriere.userLastName}">robert</td>
+        <td th:text="${inchiriere.echipamentName}">mingie</td>
+        <td th:text="${inchiriere.descriereEchipament}">mingie</td>
+        <td>
+            <form th:action="@{'/admin/inchirieri/' + ${inchiriere.id} + '/aproba'}" method="post" style="display:inline;">
+                <button type="submit">Aproba</button>
+            </form>
+            <form th:action="@{'/admin/inchirieri/' + ${inchiriere.id} + '/respinge'}" method="post" style="display:inline;">
+                <button type="submit">Respinge</button>
+            </form>
+            <form th:action="@{'/admin/inchirieri/' + ${inchiriere.id} + '/preia'}" method="post" style="display:inline;">
+                <button type="submit">Preia</button>
+            </form>
+            <form th:action="@{'/admin/inchirieri/' + ${inchiriere.id} + '/returneaza'}" method="post" style="display:inline;">
+                <button type="submit">Returneaza</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
